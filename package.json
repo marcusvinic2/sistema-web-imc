@@ -1,0 +1,27 @@
+{
+  "name": "imc-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn dev:web\" \"yarn dev:server\"",
+    "dev:web": "yarn workspace @imc-monorepo/web dev",
+    "dev:server": "yarn workspace @imc-monorepo/server dev",
+    "build:web": "yarn workspace @imc-monorepo/web build",
+    "build:server": "yarn workspace @imc-monorepo/server build",
+    "start:web": "yarn workspace @imc-monorepo/web start",
+    "start:server": "yarn workspace @imc-monorepo/server start",
+    "seed": "yarn workspace @imc-monorepo/server seed",
+    "migration:generate": "yarn workspace @imc-monorepo/server migration:generate",
+    "migration:run": "yarn workspace @imc-monorepo/server migration:run",
+    "migration:revert": "yarn workspace @imc-monorepo/server migration:revert"
+  },
+  "author": "Marcus Vinicius <marcusvinic.br.154@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
