@@ -42,3 +42,7 @@ Siga o guia de instalação e configuração para preparar o projeto para execu�
 - no campo de usuário use: **admin**
 - no campo de senha use: **123456**
 
+
+# Contato, caso surgir duvidas na execução do projeto.
+<br />
+Whatsapp: (63) 9 9255-5873
