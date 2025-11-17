@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "tsc",
-    "start": "dist/server.js",
+    "start": "node dist/server.js",
     "migration:generate": "node -r ts-node/register ../../node_modules/typeorm/cli.js migration:generate src/database/migrations/Init -d src/database/data-source.ts",
     "migration:run": "node -r ts-node/register ../../node_modules/typeorm/cli.js migration:run -d src/database/data-source.ts",
     "migration:revert": "node -r ts-node/register ../../node_modules/typeorm/cli.js migration:revert -d src/database/data-source.ts",

@@ -8,6 +8,8 @@
   ],
   "scripts": {
     "dev": "concurrently \"yarn dev:web\" \"yarn dev:server\"",
+    "start": "concurrently \"yarn start:web\" \"yarn start:server\"",
+    "build": "concurrently \"yarn build:web\" \"yarn build:server\"",
     "dev:web": "yarn workspace @imc-monorepo/web dev",
     "dev:server": "yarn workspace @imc-monorepo/server dev",
     "build:web": "yarn workspace @imc-monorepo/web build",
