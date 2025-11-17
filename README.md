@@ -2,6 +2,9 @@
 
 Uma API RESTful construída com express, TypeScript e TypeORM, utilizando Sqlite como banco de dados e FrontEnd construído com NextJS e TypeScript.
 
+<br />
+Aplicação desenvolvida e testada na versão 24.11.0 do NodeJS
+
 ## 🚀 Tecnologias Back-end
 
 - **Express** - Framework web rápido e eficiente
