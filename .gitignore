@@ -22,3 +22,5 @@ out/
 .next/server/chunks/
 .next/server/**/*.json
 .next/server/**/*.gz
+*.sqlite
+*.lock
