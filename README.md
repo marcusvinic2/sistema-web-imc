@@ -29,8 +29,16 @@ Siga o guia de instalação e configuração para preparar o projeto para execu�
 
 - `yarn` - Inicia instalação de todas as dependencias do projeto.
 - `migration:run` - Executa a migration inicial para poder rodar o back-end.
+- `yarn seed` - Executa script para criar uma conta de admin.
 - `yarn dev` - Inicia o servidor em desenvolvimento.
 
 - Após rodar em desenvolvimento pode rodar em produção.
 - `yarn build` - Compila e faz bundle do TypeScript.
 - `yarn start` - Inicia o servidor em produção.
+
+
+## 🌎 Acessar o sistema
+- *acesse http://localhost:3000*
+- no campo de usuário use: **admin**
+- no campo de senha use: **123456**
+
