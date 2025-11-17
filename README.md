@@ -28,7 +28,7 @@ Siga o guia de instalação e configuração para preparar o projeto para execu�
 ## 🔧 Scripts para rodar o projeto
 
 - `yarn` - Inicia instalação de todas as dependencias do projeto.
-- `migration:run` - Executa a migration inicial para poder rodar o back-end.
+- `yarn migration:run` - Executa a migration inicial para poder rodar o back-end.
 - `yarn seed` - Executa script para criar uma conta de admin.
 - `yarn dev` - Inicia o servidor em desenvolvimento.
 
