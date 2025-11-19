@@ -7,7 +7,9 @@ import {
 } from "typeorm";
 import { UserToken } from "./UserToken";
 import { EvaluationIMC } from "./EvaluationIMC";
-import { Perfil, Situacao } from "../types/user.types";
+
+export type Perfil = "admin" | "aluno" | "professor";
+export type Situacao = "ativo" | "inativo";
 
 @Entity("usuario")
 export class User {
